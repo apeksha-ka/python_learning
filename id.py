@@ -1,7 +1,9 @@
 
-def id (name):
-   print("id:"+name)
+def my_function(id,*names):
+    for name in names:
+     print("id:" + name)
+    
    
-id("Apeksha")  
-id("sharmi")  
-id("Ibbzz")   
+my_function("id","Apeksha","Sharamada","Ibbani") 
+
+   
