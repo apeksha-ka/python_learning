@@ -1,0 +1,7 @@
+def reverse_list(data):
+    rev = []
+    n = 4
+    for n in range(n-1,-1,-1):
+     rev.append(data[n])
+    return rev
+print(reverse_list([10,20,30,40]))    
